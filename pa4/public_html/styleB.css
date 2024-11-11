@@ -1,0 +1,96 @@
+/* Name: Thomas Obrenovich
+    Course: CS 337 PA3: Sign-up Form
+    File: styleB.css
+    Description: Style sheet B for the site, with the content split between the left and right sides. The header and navigation
+    are both fixed in the middle, and each side has it's own separate information. */
+
+#header{
+  position: fixed;
+  top: 0;
+  color: yellow;
+  left: 37.5%;
+  background-color: darkblue;
+  width: 25%;
+  padding-bottom: 4%;
+}
+
+h1{
+  font-family: Arial;
+  font-size: 40px;
+  padding-left: 5px;
+}
+
+#pricecoLogo{
+  display: block;
+  float: left;
+  width: 100px;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+#navigation{
+  position: fixed;
+  top: 185px;
+  left: 37.5%;
+  background-color: yellow;
+  height: 100%;
+  width: 25%;
+}
+
+.navButton{
+  font-size: 40px;
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+  margin-right: 10px;
+  font-family: Arial;
+}
+
+#productsColA{
+  position: absolute;
+  margin-right: 62%;
+  top: 0;
+  left: 0;
+  overflow-y:scroll;
+  max-height: 100%;
+  background-color: lightblue;
+  font-family: Arial;
+}
+
+#productsColB{
+  position: absolute;
+  margin-left: 61.7%;
+  top: 0;
+  overflow-y:scroll;
+  max-height: 100%;
+  background-color: lightblue;
+  font-family: Arial;
+}
+
+.productImg{
+  width: 250px;
+  margin: auto;
+  display: block;
+}
+
+.productDesc{
+  text-align: center;
+  font-size: 35px;
+}
+
+.styleButton{
+  position: fixed;
+  bottom: 10px;
+  background-color: darkgray;
+  margin: 13px;
+  padding: 13px;
+  opacity: 0.7;
+}
+
+#styleB{
+  left: 105px;
+}
+
+#styleC{
+  left: 200px;
+}

@@ -1,0 +1,111 @@
+/* Name: Thomas Obrenovich
+    Course: CS 337 PA2: Topic Style
+    File: p_style.css
+    Description: The styling for the pizza page of the website */
+
+body {
+  background-color: tan;
+}
+
+h1 {
+  background-color: rgb(92, 74, 61);
+  color: white;
+  padding-top: 2%;
+  font-size: 50px;
+  text-align: center;
+  font-family: Courier New;
+  margin: auto;
+  border-top: 4px solid black;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+
+}
+
+h2{
+  background-color: rgb(255,255,102);
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+  font-size: 40px;
+  padding: 2%;
+  text-align: center;
+  margin: auto;
+  font-family: Courier New;
+}
+
+h3{
+  background-color: rgb(255,255,102);
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 100%;
+  font-family: Courier New;
+  margin: auto;
+  padding: 2%;
+  color: rgb(170,50,50);
+  text-align: center;
+  font-size: 35px;
+}
+
+#middle{
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+}
+
+#tip{
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100%;
+}
+
+#pizza {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px solid rgb(255,255,102);
+  width: 50%;
+}
+
+p{
+  background-color: rgb(255,255,102);
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+  margin: auto;
+  text-align: center;
+  font-family: Courier New;
+  font-size: 25px;
+  color: rgb(170,50,50);
+}
+
+table, tr, td, th{
+  color: black;
+  margin: auto;
+  background-color: white;
+  font-size: 50px;
+  border: 2px dashed red;
+  border-collapse: collapse;
+  font-family: Courier New;
+}
+
+.tag{
+  color: white;
+  background-color: red;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+
+ol{
+  font-size: 30px;
+  font-family: Courier New;
+  margin-left: 50px;
+}

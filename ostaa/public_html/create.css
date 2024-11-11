@@ -1,0 +1,46 @@
+/* Name: Thomas Obrenovich
+    PA10: Ostaa pt2
+    The style for the item creation page, making it easier to navigate for the user to create and post their item. */
+
+    body{
+        background-color: lightsalmon;
+    }
+
+    #addUser{
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    #addItem{
+        display: block;
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    #returnHome{
+        display: block;
+        font-size: 20px;
+        margin: 20px;
+    }
+
+
+    .Title{
+        font-size: 40px;
+        color: white;
+        background-color: black;
+    }
+
+    .userForm{
+        display: inline;
+    }
+
+    .form{
+        display: inline;
+        padding: 10px;
+    }
+
+    #item-section{
+        background-color: lightblue;
+        width: 50%;
+        height: 500px;
+    }

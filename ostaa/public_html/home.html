@@ -1,0 +1,36 @@
+<!--Name: Thomas Obrenovich
+    PA10: Ostaa pt2
+    Manages the HTML for the home page, allowing for input fields in order to pass the data on through to the server through the client side code. Contains
+    only the home page html, having sections of the search buttons along with the section search results where items are added.
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title> Ostaa </title>
+  <link rel="stylesheet"
+	  type = "text/css"
+	  href="./home.css">
+</head>
+
+<body>
+<h1 id="header" class="Title"> Welcome </h1>
+<div id="item-section">
+  <h2 class="bttn"> Search </h2>
+  <textarea id="listingDesc" class="bttn" name="listingDesc" rows="1" cols="40"></textarea>
+  <input id="searchListings" class="bttn" type="button" value="Search Listings">
+
+  <input id="viewYourListings" class="bttn" type="button" value="View Listings">
+
+  <input id="viewYourPurchases" class="bttn" type="button" value="View Purchases">
+
+  <input id="createAListing" class="bttn" type="button" value="Create Listing">
+
+</div>
+
+<div id="searchResults"></div>
+
+<script src="homePage.js"></script>
+</body>

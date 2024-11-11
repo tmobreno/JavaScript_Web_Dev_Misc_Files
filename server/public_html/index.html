@@ -1,0 +1,40 @@
+<!--Name: Thomas Obrenovich
+    Course: CS 337 PA7
+    Holds the code for the translator website, which includes a text box on the left which is able to take in text and a box
+    on the right to display the translation. There is also a select box for English, Spanish, or German for both sides. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title> Translator </title>
+  <link rel="stylesheet"
+	  type = "text/css"
+	  href="./style.css">
+</head>
+
+<body>
+
+<div id="header">
+<h1> Translator </h1>
+</div>
+
+<select name="startTrans" id="startTrans" class="left">
+    <option value="English">English</option>
+    <option value="Spanish">Spanish</option>
+    <option value="German">German</option>
+</select>
+
+<textarea id="textToTranslate" name="textToTranslate" class="left" rows="20%" cols="50%"></textarea>
+
+<select name="endTrans" id="endTrans" class="right">
+    <option value="English">English</option>
+    <option value="Spanish">Spanish</option>
+    <option value="German">German</option>
+</select>
+
+<textarea id="translation" name="translation" class="right" rows="20%" cols="50%" readonly></textarea>
+
+<script src="function.js"></script>
+</body>

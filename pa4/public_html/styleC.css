@@ -1,0 +1,83 @@
+/* Name: Thomas Obrenovich
+    Course: CS 337 PA3: Sign-up Form
+    File: styleC.css
+    Description: Style sheet C, with the header in the top left and the navigation in the top right. The content is in the middle
+    and fits within the header and navigation so that nothing is cut off. The entire site scrolls, as it is specified for
+    nothing to be fixed. */
+
+#header{
+  float: left;
+  color: yellow;
+  background-color: darkblue;
+  width: 500px;
+  height: 400px;
+  border: 3px solid blue;
+  text-align: center;
+}
+
+h1{
+  font-family: Arial;
+  font-size: 60px;
+}
+
+#pricecoLogo{
+  display: block;
+  width: 150px;
+  margin-left: 35%;
+  margin-right: 10px;
+}
+
+#navigation{
+  float: right;
+  background-color: yellow;
+  height: 400px;
+  width: 500px;
+  border: 3px solid blue;
+}
+
+.navButton{
+  font-size: 40px;
+  display: block;
+  margin-top: 30px;
+  text-align: right;
+  margin-right: 10px;
+  font-family: Arial;
+}
+
+#content{
+  top: 0;
+  background-color: lightblue;
+  font-family: Arial;
+}
+
+.productImg{
+  width: 250px;
+  margin: auto;
+  display: block;
+}
+
+.productDesc{
+  text-align: center;
+  font-size: 35px;
+}
+
+body{
+  margin: 0;
+}
+
+.styleButton{
+  position: fixed;
+  bottom: 10px;
+  background-color: darkgray;
+  margin: 13px;
+  padding: 13px;
+  opacity: 0.7;
+}
+
+#styleB{
+  left: 105px;
+}
+
+#styleC{
+  left: 200px;
+}

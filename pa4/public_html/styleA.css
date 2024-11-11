@@ -1,0 +1,87 @@
+/* Name: Thomas Obrenovich
+    Course: CS 337 PA3: Sign-up Form
+    File: styleA.css
+    Description: Style sheet A, the logo and title are fixed to the top of the screen, logo in the top left, slogan in top right.
+    The navigation is displayed on the left side, also fixed, with the content being in the remaining area of the screen. */
+
+#header{
+  position: fixed;
+  top: 0;
+  color: yellow;
+  background-color: darkblue;
+  width: 100%;
+  height: 150px;
+  text-align: right;
+}
+
+h1{
+  font-family: Arial;
+  font-size: 50px;
+  margin-right: 2%;
+}
+
+#pricecoLogo{
+  float: left;
+  width: 100px;
+  margin-left: 1%;
+}
+
+#navigation{
+  position: fixed;
+  top: 150px;
+  background-color: yellow;
+  height: 100%;
+  width: 300px;
+  left: 0;
+}
+
+.navButton{
+  font-size: 30px;
+  display: block;
+  margin-top: 20px;
+  text-align: right;
+  margin-right: 10px;
+  font-family: Arial;
+}
+
+#content{
+  position: fixed;
+  margin-left: 300px;
+  margin-top: 150px;
+  overflow-y:scroll;
+  max-height: 84%;
+  background-color: lightblue;
+  font-family: Arial;
+}
+
+.productImg{
+  width: 200px;
+  margin: auto;
+  display: block;
+}
+
+.productDesc{
+  text-align: center;
+  font-size: 25px;
+}
+
+.styleButton{
+  position: fixed;
+  bottom: 10px;
+  background-color: darkgray;
+  margin: 13px;
+  padding: 13px;
+  opacity: 0.7;
+}
+
+#styleB{
+  left: 105px;
+}
+
+#styleC{
+  left: 200px;
+}
+
+body{
+    margin: 0;
+}

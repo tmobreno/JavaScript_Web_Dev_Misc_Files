@@ -1,0 +1,86 @@
+<!--Name: Thomas Obrenovich
+    Course: CS 337 PA5: Welcome to the Jumble 
+    File: index.html
+    Description: A Casesar and Square cipher for an input textarea. When text is inputed into the area, the website will adjust
+    the written text according to the specified ciphers. The caeser cipher runs off the slider, which will generate a value to
+    adjust the letters by. The square cipher runs off the table and update square button, which specifies the grid that the cipher uses. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title> Sentence Jumple </title>
+  <link rel="stylesheet"
+	  type = "text/css"
+	  href="./css/style.css">
+</head>
+
+<body>
+
+<div id="header">
+<h1> Welcome to the Jumble </h1>
+
+<label for="sentence"></label>
+<textarea id="sentence" name="sentence" rows="1" cols="50"></textarea>
+<br>
+<span id="num">
+0
+</span>
+<label for="cipher"> </label>
+<input id="cipher" type="range" min="0" max="26" value="0" name="cipher">
+<br>
+<input type="button" id="update" value="Update Square">
+
+<table>
+  <tbody>
+    <tr>
+	<td class="normal" id="cell00">&nbsp;</td>
+	<td class="normal" id="cell01">&nbsp;</td>
+	<td class="normal" id="cell02">&nbsp;</td>
+	<td class="normal" id="cell03">&nbsp;</td>
+	<td class="red" id="cell04">&nbsp;</td>
+    </tr>
+    <tr>
+	<td class="normal" id="cell10">&nbsp;</td>
+	<td class="normal" id="cell11">&nbsp;</td>
+	<td class="normal" id="cell12">&nbsp;</td>
+	<td class="normal" id="cell13">&nbsp;</td>
+	<td class="red" id="cell14">&nbsp;</td>
+    </tr>
+    <tr>
+	<td class="normal" id="cell20">&nbsp;</td>
+	<td class="normal" id="cell21">&nbsp;</td>
+	<td class="normal" id="cell22">&nbsp;</td>
+	<td class="normal" id="cell23">&nbsp;</td>
+	<td class="red" id="cell24">&nbsp;</td>
+    </tr>
+    <tr>
+	<td class="normal" id="cell30">&nbsp;</td>
+	<td class="normal" id="cell31">&nbsp;</td>
+	<td class="normal" id="cell32">&nbsp;</td>
+	<td class="normal" id="cell33">&nbsp;</td>
+      <td class="red" id="cell34">&nbsp;</td>
+    </tr>
+    <tr>
+	<td class="normal" id="cell40">&nbsp;</td>
+	<td class="normal" id="cell41">&nbsp;</td>
+	<td class="normal" id="cell42">&nbsp;</td>
+	<td class="normal" id="cell43">&nbsp;</td>
+      <td class="red" id="cell44">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+<div id="top">
+sentence cipher top
+</div>
+<div id="bot">
+sentence cipher bottom
+</div>
+
+<script src="function.js"></script>
+
+</body>

@@ -1,0 +1,42 @@
+<!--Name: Thomas Obrenovich
+    PA10: Ostaa pt2
+    Manages the HTML for the creation page, allowing for input fields in order to pass the data on through to the server through the client side code. Contains
+    only the creation page html, having sections for the creation of items and the proper buttons and fields to allow the user to easily list their items.
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> Ostaa </title>
+    <link rel="stylesheet"
+        type = "text/css"
+        href="./create.css">
+  </head>
+  
+  <body>
+  <h1 class="Title"> Add Item </h1>
+  <div id="item-section">
+    <h1 class="form">Title: </h1>
+    <textarea id="Title" name="Title" rows="1" class="userForm" cols="40"></textarea>
+    <br>
+    <h1 class="form">Description: </h1>
+    <textarea id="Description" name="Description" rows="1" class="userForm" cols="40"></textarea>
+    <br>
+    <h1 class="form">Image: </h1>
+    <textarea id="Image" name="Image" rows="1" class="userForm" cols="40"></textarea>
+    <br>
+    <h1 class="form">Price: </h1>
+    <input id="Price" type="number" name="Price" class="userForm">
+    <br>
+    <h1 class="form">Stat: </h1>
+    <textarea id="Stat" name="Stat" rows="1" class="userForm" cols="40"></textarea>
+    <br>
+    <input id="addItem" type="button" class="submitForm" value="Add Item">
+    <input id="returnHome" type="button" class="submitForm" value="Return Home">
+    <br>
+  </div>
+
+<script src="createListing.js"></script>
+</body>

@@ -1,0 +1,59 @@
+/* Name: Thomas Obrenovich
+    Course: CS 337 PA7
+    Description: Style sheet for the translation page, which makes the text boxes bigger and all of the elements more accessible. */
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: blue;
+    background-color: yellow;
+    padding: 1%;
+    border: 2px solid black;
+    height: 20%;
+}
+
+body{
+    background-color: gray;
+}
+
+.left{
+    float: left;
+    background-color: lightblue;
+    font-family: Arial;
+}
+
+.right{
+    float: right;
+    background-color: lightcoral;
+    font-family: Arial;
+}
+
+#startTrans{
+    font-size: 30px;
+    height: 50%;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#endTrans{
+    font-size: 30px;
+    height: 50%;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#textToTranslate{
+    font-size: 28px;
+    padding: 1%;
+    border: 2px solid black;
+    width: 35%;
+    height: 35%;
+}
+
+#translation{
+    font-size: 28px;
+    padding: 1%;
+    border: 2px solid black;
+    width: 35%;
+    height: 35%;
+}

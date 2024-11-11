@@ -1,0 +1,37 @@
+/* Name: Thomas Obrenovich
+    PA8: Chatty 
+    Styles the page so that the content takes up about 70% of the page with the submission being the rest.
+    Makes the content more legible and easier to use for the user.
+    */
+
+  body {
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  #chatContent {
+    height: 710px;
+    background-color: lightgreen;
+    overflow: auto;
+    padding: 20px;
+    font-size: 18px;
+  }
+  
+  .aliasForm {
+    display: inline;
+  }
+  
+  .messageForm{
+    display: inline;
+  }
+  
+  #form-section {
+    width: 97.9%;
+    padding: 20px;
+    background-color: darkgreen;
+    color: white;
+  }
+
+  #Submit{
+    font-size: 20px;
+  }

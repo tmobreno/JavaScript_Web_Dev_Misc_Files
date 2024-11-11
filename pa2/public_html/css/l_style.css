@@ -1,0 +1,77 @@
+/* Name: Thomas Obrenovich
+    Course: CS 337 PA2: Topic Style
+    File: l_style.css
+    Description: The style specifications for the lasagna page of the website */
+
+body {
+  background-color: #ADDFB3;
+}
+
+h1 {
+  background-color: rgb(170,50,50);
+  color: white;
+  padding-top: 2%;
+  font-size: 50px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial;
+}
+
+h2{
+  background-color: green;
+  font-size: 40px;
+  padding: 2%;
+  text-align: center;
+  margin: auto;
+  font-family: Arial;
+}
+
+h3{
+  background-color: white;
+  padding: 2%;
+  margin: auto;
+  font-family: Arial;
+  text-align: center;
+  font-size: 35px;
+}
+
+#lasag {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px solid rgb(170,50,50);
+  width: 50%;
+}
+
+p{
+  background-color: white;
+  border: 4px solid rgb(170,50,50);
+  text-align: center;
+  font-family: Arial;
+  font-size: 25px;
+  margin: auto;
+  color: rgb(170,50,50);
+}
+
+table, tr, td, th{
+  color: black;
+  margin: auto;
+  background-color: white;
+  font-size: 50px;
+  border: 2px dashed rgb(170,50,50);
+  border-collapse: collapse;
+  font-family: Arial;
+}
+
+#tag{
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 30px;
+}
+
+ol{
+  font-size: 30px;
+  font-family: Courier New;
+  margin-left: 50px;
+}

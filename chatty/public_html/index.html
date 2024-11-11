@@ -1,0 +1,33 @@
+<!--Name: Thomas Obrenovich
+    PA8: Chatty 
+    The HTML for the site, which has the submission section along with the chat content section. 
+    This is styled by the css sheet and runs based on the javascript functions.
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title> Chatty </title>
+  <link rel="stylesheet"
+	  type = "text/css"
+	  href="./style.css">
+</head>
+
+<body>
+
+<div id="chatContent"></div>
+
+<div id="form-section">
+  <h1 class="aliasForm">Alias: </h1>
+  <textarea id="Alias" name="Alias" rows="1" class="aliasForm" cols="40"></textarea>
+  <br>
+  <h1 class="messageForm">Message: </h1>
+  <textarea id="Message" name="Message" rows="1" class="messageForm" cols="40"></textarea>
+  <br>
+  <input id="Submit" type="button" class="submitForm" value="Send Message">
+</div>
+
+<script src="function.js"></script>
+</body>

@@ -1,0 +1,66 @@
+/* Name: Thomas Obrenovich
+    Course: CS 337 PA5: Welcome to the Jumble 
+    File: style.css
+    Description: Style sheet for the index page, which places the elements to interact with on the left side and the encryption text on the right.
+    The caesar cipher is placed on the top right corner, whereas the square cipher is placed in the bottom right corner. */
+
+#header{
+  position: fixed;
+  background-color: gray;
+  text-align: center;
+  left: 0;
+  top:0;
+  left: 0;
+  font-size: 40px;
+  height: 100%;
+  width: 32%;
+  font-family: Arial;
+}
+
+#top{
+  position: absolute;
+  background-color: lightgreen;
+  top: 0;
+  right: 0;
+  width: 68%;
+  height: 50%;
+  font-size: 40px;
+  text-align: center;
+  font-family: Arial;
+  overflow-y: scroll;
+  word-wrap: break-word;
+}
+
+#bot{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: lightblue;
+  width: 68%;
+  height: 50%;
+  font-size: 40px;
+  text-align: center;
+  font-family: Arial;
+  overflow-y:scroll;
+  word-wrap: break-word;
+}
+
+#sentence{
+  font-size: 20px;
+}
+
+table, tr, td{
+  margin: auto;
+  border: 2px solid rgb(170,50,50);
+  border-collapse: collapse;
+  font-family: Arial;
+}
+
+td{
+  padding: 6px;
+}
+
+#update{
+  margin: 15px;
+  font-size: 20px;
+}

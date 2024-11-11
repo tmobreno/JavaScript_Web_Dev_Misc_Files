@@ -1,0 +1,72 @@
+<!--Name: Thomas Obrenovich
+    Course: CS 337 PA3: Sign-up Form 
+    File: index.html
+    Description: A sign up form for a giveaway. Includes all the required, and unrequired information form boxes
+    allowing the user to submit their information for the giveaway. The page will post the information to the specified link.
+    Features a combination of sliders, radio buttons, textboxes, and input spaces. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title> Sign-up Form </title>
+  <link rel="stylesheet"
+	  type = "text/css"
+	  href="./css/style.css">
+</head>
+
+<body>
+
+<img src="./img/money.jpg" alt="Lots of Money" height="100" id="money">
+<h1> $1,000,000 Giveaway Sign-Up </h1>
+<img src="./img/money.jpg" alt="Lots of Money" height="100">
+
+<div id="content">
+
+<h2> Fill out this form for a chance to win $1,000,000 (legit). Just put in your information, and if you are a winner, we will send you
+all of the money!! </h2>
+
+<form method="post" action="https://benjdd.com/sp">
+  <label for="fname">First name:</label>
+  <input pattern="[A-Z][a-z]*" type="text" id="fname" name="fname" required>
+  <label for="lname">Last name:</label>
+  <input pattern="[A-Z][a-z]*" type="text" id="lname" name="lname" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="emailAddress" required>
+  <label for="recEmail">Recovery Email:</label>
+  <input type="email" id="recEmail" name="recEmailAddress">
+
+  <label for="password">Password:</label>
+  <input pattern=".{8,}" type="password" id="password" name="password" required>
+
+  <label for="phoneNumber">Phone Number:</label>
+  <input pattern="[0-9]{3}-[0-9]{4}" type="tel" id="phoneNumber" name="phoneNumber">
+
+  <label for="weight">Weight (in lbs):</label>
+  <input type="number" id="weight" name="weight">
+
+  <label for="bio">Bio:</label>
+  <textarea id="bio" name="bio" rows="3" cols="50"> </textarea>
+
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+
+  <p> Join the Newletter for more Giveaways? </p>
+  <label for="yes" class="rButton">Yes</label>
+  <input type="radio" id="yes" name="newsletter" value="yes" required>
+  <label for="no" class="rButton">No</label>
+  <input type="radio" id="no" name="newsletter" value="no" required>
+
+  <br>
+  <label for="satisfaction" id="satis">Satisfaction with Company? (1-10) </label>
+  <input type="range" min="1" max="10" value="5" id="satisfaction" name="satisfaction">
+
+  <br>
+  <input type="submit" id="submit" value="Submit">
+</form>
+
+</div>
+
+</body>
